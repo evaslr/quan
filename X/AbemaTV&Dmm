@@ -1,12 +1,12 @@
 # > AbemaTV
 USER-AGENT,AbemaTV*,AbemaTV
-DOMAIN-SUFFIX,abema.io,AbemaTV
-DOMAIN-SUFFIX,ameba.jp,AbemaTV
-DOMAIN-SUFFIX,hayabusa.io,AbemaTV
-DOMAIN,abematv.akamaized.net,AbemaTV
-DOMAIN,ds-linear-abematv.akamaized.net,AbemaTV
-DOMAIN,ds-vod-abematv.akamaized.net,AbemaTV
-DOMAIN,linear-abematv.akamaized.net,AbemaTV
+HOST-SUFFIX,abema.io,AbemaTV
+HOST-SUFFIX,ameba.jp,AbemaTV
+HOST-SUFFIX,hayabusa.io,AbemaTV
+HOST,abematv.akamaized.net,AbemaTV
+HOST,ds-linear-abematv.akamaized.net,AbemaTV
+HOST,ds-vod-abematv.akamaized.net,AbemaTV
+HOST,linear-abematv.akamaized.net,AbemaTV
 # > Dmm
-DOMAIN-SUFFIX,dmm.co.jp,PROXY
-DOMAIN-SUFFIX,dmm.com,PROXY
+HOST-SUFFIX,dmm.co.jp,PROXY
+HOST-SUFFIX,dmm.com,PROXY
