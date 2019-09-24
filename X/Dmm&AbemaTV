@@ -1,4 +1,4 @@
-# > AbemaTV
+# > Dmm&AbemaTV
 USER-AGENT,AbemaTV*,AbemaTV
 HOST-SUFFIX,abema.io,AbemaTV
 HOST-SUFFIX,ameba.jp,AbemaTV
@@ -7,6 +7,5 @@ HOST,abematv.akamaized.net,AbemaTV
 HOST,ds-linear-abematv.akamaized.net,AbemaTV
 HOST,ds-vod-abematv.akamaized.net,AbemaTV
 HOST,linear-abematv.akamaized.net,AbemaTV
-# > Dmm
 HOST-SUFFIX,dmm.co.jp,PROXY
 HOST-SUFFIX,dmm.com,PROXY
