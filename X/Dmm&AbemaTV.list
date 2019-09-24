@@ -1,0 +1,9 @@
+# > Dmm&AbemaTV
+USER-AGENT,AbemaTV*,Dmm&AbemaTV
+DOMAIN-SUFFIX,abema.io,Dmm&AbemaTV
+DOMAIN-SUFFIX,ameba.jp,Dmm&AbemaTV
+DOMAIN-SUFFIX,hayabusa.io,Dmm&AbemaTV
+DOMAIN,abematv.akamaized.net,Dmm&AbemaTV
+DOMAIN,ds-linear-abematv.akamaized.net,Dmm&AbemaTV
+DOMAIN,ds-vod-abematv.akamaized.net,Dmm&AbemaTV
+DOMAIN,linear-abematv.akamaized.net,Dmm&AbemaTV
