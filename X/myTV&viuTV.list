@@ -1,0 +1,12 @@
+# > myTV&viuTV
+USER-AGENT,mytv*,myTV&viuTV
+DOMAIN-SUFFIX,mytvsuper.com,myTV&viuTV
+DOMAIN-SUFFIX,tvb.com,myTV&viuTV
+USER-AGENT,Viu*,myTV&viuTV
+USER-AGENT,ViuTV*,myTV&viuTV
+DOMAIN-SUFFIX,viu.com,myTV&viuTV
+DOMAIN-SUFFIX,viu.tv,myTV&viuTV
+DOMAIN,api.viu.now.com,myTV&viuTV
+DOMAIN,d1k2us671qcoau.cloudfront.net,myTV&viuTV
+DOMAIN,d2anahhhmp1ffz.cloudfront.net,myTV&viuTV
+DOMAIN,dfp6rglgjqszk.cloudfront.net,myTV&viuTV
