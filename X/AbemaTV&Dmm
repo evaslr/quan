@@ -7,3 +7,6 @@ DOMAIN,abematv.akamaized.net,AbemaTV
 DOMAIN,ds-linear-abematv.akamaized.net,AbemaTV
 DOMAIN,ds-vod-abematv.akamaized.net,AbemaTV
 DOMAIN,linear-abematv.akamaized.net,AbemaTV
+# > Dmm
+DOMAIN-SUFFIX,dmm.co.jp,PROXY
+DOMAIN-SUFFIX,dmm.com,PROXY
