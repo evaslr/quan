@@ -1,4 +1,4 @@
 # > MyTV SUPER
-USER-AGENT,mytv*,myTV SUPER
-HOST-SUFFIX,mytvsuper.com,myTV SUPER
-HOST-SUFFIX,tvb.com,myTV SUPER
+USER-AGENT,mytv*,MyTV SUPER
+HOST-SUFFIX,mytvsuper.com,MyTV SUPER
+HOST-SUFFIX,tvb.com,MyTV SUPER
