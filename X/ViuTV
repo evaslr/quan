@@ -1,0 +1,9 @@
+# > ViuTV
+USER-AGENT,Viu*,ForeignMedia
+USER-AGENT,ViuTV*,ForeignMedia
+HOST-SUFFIX,viu.com,ForeignMedia
+HOST-SUFFIX,viu.tv,ForeignMedia
+HOST,api.viu.now.com,ForeignMedia
+HOST,d1k2us671qcoau.cloudfront.net,ForeignMedia
+HOST,d2anahhhmp1ffz.cloudfront.net,ForeignMedia
+HOST,dfp6rglgjqszk.cloudfront.net,ForeignMedia
