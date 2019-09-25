@@ -397,33 +397,6 @@ HOST-SUFFIX,vsco.co,PROXY
 HOST-SUFFIX,xfinity.com,PROXY
 HOST-SUFFIX,zattoo.com,PROXY
 USER-AGENT,Roam*,PROXY
-
-# (The Most Popular Sites)
-# > Apple
-# >> TestFlight
-HOST,testflight.apple.com,PROXY
-# >> Apple URL Shortener
-HOST-SUFFIX,appsto.re,PROXY
-# >> iBooks Store download
-HOST,books.itunes.apple.com,PROXY
-# >> iTunes Store Moveis Trailers
-HOST,hls.itunes.apple.com,PROXY
-# >> App Store Preview
-HOST,apps.apple.com,PROXY
-HOST,itunes.apple.com,PROXY
-# >> Spotlight
-HOST,api-glb-sea.smoot.apple.com,PROXY
-# >> Dictionary
-HOST,lookup-api.apple.com,PROXY
-# >> Apple News and Apple Map TOMTOM Version
-HOST,gspe1-ssl.ls.apple.com,PROXY
-USER-AGENT,AppleNews*,PROXY
-USER-AGENT,com.apple.news*,PROXY
-HOST-SUFFIX,apple.news,PROXY
-HOST,news-client.apple.com,PROXY
-HOST,news-edge.apple.com,PROXY
-HOST,news-events.apple.com,PROXY
-HOST,apple.comscoreresearch.com,PROXY
 # > Google
 HOST-SUFFIX,abc.xyz,PROXY
 HOST-SUFFIX,android.com,PROXY
