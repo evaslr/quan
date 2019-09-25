@@ -1,0 +1,11 @@
+# > Japan
+USER-AGENT,AbemaTV*,Japan
+HOST-SUFFIX,abema.io,Japan
+HOST-SUFFIX,ameba.jp,Japan
+HOST-SUFFIX,hayabusa.io,Japan
+HOST,abematv.akamaized.net,Japan
+HOST,ds-linear-abematv.akamaized.net,Japan
+HOST,ds-vod-abematv.akamaized.net,Japan
+HOST,linear-abematv.akamaized.net,Japan
+HOST-SUFFIX,dmm.co.jp,Japan
+HOST-SUFFIX,dmm.com,Japan
