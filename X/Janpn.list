@@ -1,0 +1,11 @@
+# > Janpn
+USER-AGENT,AbemaTV*,Janpn
+HOST-SUFFIX,abema.io,Janpn
+HOST-SUFFIX,ameba.jp,Janpn
+HOST-SUFFIX,hayabusa.io,Janpn
+HOST,abematv.akamaized.net,Janpn
+HOST,ds-linear-abematv.akamaized.net,Janpn
+HOST,ds-vod-abematv.akamaized.net,Janpn
+HOST,linear-abematv.akamaized.net,Janpn
+HOST-SUFFIX,dmm.co.jp,Janpn
+HOST-SUFFIX,dmm.com,Janpn
