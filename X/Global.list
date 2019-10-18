@@ -520,3 +520,16 @@ HOST-SUFFIX,x-art.com,Global
 HOST-SUFFIX,yimg.com,Global
 HOST,api.steampowered.com,Global
 HOST,store.steampowered.com,Global
+# > 网易云音乐
+host-suffix,music.163.com,Global
+host-suffix,music.126.net,Global
+host-keyword,netease,Global
+user-agent,NeteaseMusic*,Global
+user-agent,NeteaseMusic**,Global
+user-agent,网易云音乐*,Global
+user-agent,网易云音乐**,Global
+user-agent,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,Global
+user-agent,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90**,Global
+ip-cidr,59.111.181.0/24,Global
+ip-cidr,115.236.118.0/24,Global
+ip-cidr,223.252.199.0/24,Global
