@@ -276,6 +276,7 @@ HOST-SUFFIX,zhimg.com,DIRECT
 HOST-SUFFIX,zhuihd.com,DIRECT
 HOST,download.jetbrains.com,DIRECT
 HOST-SUFFIX,spotify.com,DIRECT
+HOST-SUFFIX,spotifycdn.net,DIRECT
 HOST-SUFFIX,scdn.co,DIRECT
 
 # GeoIP China
