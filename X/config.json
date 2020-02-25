@@ -1,0 +1,70 @@
+{
+  "log": {
+        "access": "/var/log/v2ray/access.log",
+        "error": "/var/log/v2ray/error.log",
+        "loglevel": "warning"
+    },
+  "inbounds": [
+    {
+    "port":20585,
+      "listen": "127.0.0.1", 
+      "tag": "vmess-in", 
+      "protocol": "vmess", 
+      "settings": {
+        "clients": [
+          {
+	  "id":"4ae66574-3a59-4677-9cc6-152f90cef74a",
+	  "alterId":2
+          }
+        ]
+      }, 
+      "streamSettings": {
+        "network": "ws", 
+        "wsSettings": {
+	  "path":"/bf715f8a/"
+        }
+      }
+    }
+  ], 
+  "outbounds": [
+    {
+      "protocol": "freedom", 
+      "settings": {
+    "domainStrategy": "UseIP"}，
+      "tag": "direct"
+    }, 
+    {
+      "protocol": "blackhole", 
+      "settings": { }, 
+      "tag": "blocked"
+    }
+  ], 
+  "dns": {
+        "servers": [
+            {
+                "address": "61.221.155.12",
+                "port": 53,
+                "domains": [
+                    "domain:gamer2-cds.cdn.hinet.net",
+                    "domain:gamer-cds.cdn.hinet.net",
+                    "domain:gamer.com.tw",
+                    "domain:i2.bahamut.com.tw",
+                    "domain:app-measurement.com"
+                ]
+            },
+            "localhost"
+        ]
+    }
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": [
+          "vmess-in"
+        ],
+        "outboundTag": "direct"
+      }
+    ]
+  }
+}
