@@ -1,0 +1,74 @@
+{
+  "dns": {
+        "servers": [
+            {
+                "address": "47.240.40.111",
+                "port": 53,
+                "domains": [
+                    "domain:netflix.com",
+                    "domain:netflix.net",
+                    "domain:nflximg.net",
+                    "domain:nflxvideo.net",
+                    "domain:nflxso.net",
+                    "domain:mytvsuper.com",
+		            "domain:tvb.com",
+		            "domain:viu.com",
+		            "domain:now.com",
+		            "domain:nowe.com"
+                ]
+            },
+            "localhost"
+        ]
+    },
+  "log": {
+        "access": "/var/log/v2ray/access.log",
+        "error": "/var/log/v2ray/error.log",
+        "loglevel": "warning"
+    },
+  "inbounds": [
+    {
+    "port":11687,
+      "listen": "127.0.0.1", 
+      "tag": "vmess-in", 
+      "protocol": "vmess", 
+      "settings": {
+        "clients": [
+          {
+	  "id":"5be27347-2f84-4894-9a11-62b7c69c32e5",
+	  "alterId":2
+          }
+        ]
+      }, 
+      "streamSettings": {
+        "network": "ws", 
+        "wsSettings": {
+	  "path":"/510bc850/"
+        }
+      }
+    }
+  ], 
+  "outbounds": [
+    {
+      "protocol": "freedom", 
+      "settings": { }, 
+      "tag": "direct"
+    }, 
+    {
+      "protocol": "blackhole", 
+      "settings": { }, 
+      "tag": "blocked"
+    }
+  ], 
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": [
+          "vmess-in"
+        ],
+        "outboundTag": "direct"
+      }
+    ]
+  }
+}
