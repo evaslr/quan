@@ -2,19 +2,14 @@
   "dns": {
         "servers": [
             {
-                "address": "47.240.40.111",
+                "address": "61.221.155.12",
                 "port": 53,
                 "domains": [
-                    "domain:netflix.com",
-                    "domain:netflix.net",
-                    "domain:nflximg.net",
-                    "domain:nflxvideo.net",
-                    "domain:nflxso.net",
-                    "domain:mytvsuper.com",
-		    "domain:tvb.com",
-		    "domain:viu.com",
-		    "domain:now.com",
-		    "domain:nowe.com"
+                    "domain:gamer2-cds.cdn.hinet.net",
+                    "domain:gamer-cds.cdn.hinet.net",
+                    "domain:gamer.com.tw",
+                    "domain:i2.bahamut.com.twt",
+                    "domain:app-measurement.com"
                 ]
             },
             "localhost"
