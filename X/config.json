@@ -11,10 +11,10 @@
                     "domain:nflxvideo.net",
                     "domain:nflxso.net",
                     "domain:mytvsuper.com",
-		            "domain:tvb.com",
-		            "domain:viu.com",
-		            "domain:now.com",
-		            "domain:nowe.com"
+		    "domain:tvb.com",
+		    "domain:viu.com",
+		    "domain:now.com",
+		    "domain:nowe.com"
                 ]
             },
             "localhost"
