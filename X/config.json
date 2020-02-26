@@ -1,0 +1,104 @@
+{
+  "dns": {
+        "servers": [
+            {
+                "address": "dns ip",     //日本
+                "port": 53,
+                "domains": [
+				"domain:abema.io",
+				"domain:akamaized.net",
+				"domain:ameba.jp",
+				"domain:hayabusa.io"
+                ]
+            },
+			{
+                "address": "dns ip",     //台湾
+                "port": 53,
+                "domains": [
+                "domain:gamer2-cds.cdn.hinet.net",
+                "domain:gamer-cds.cdn.hinet.net",
+                "domain:gamer.com.tw",
+                "domain:i2.bahamut.com.tw",
+                "domain:app-measurement.com",
+				"domain:4gtv.tv"
+                ]
+            },
+			{
+                "address": "dns ip",     //香港
+                "port": 53,
+                "domains": [
+                "domain:mytvsuper.com",
+                "domain:tvb.com",
+                "domain:viu.tv",
+                "domain:viu.com",
+                "domain:now.com",
+				"domain:nowe.com"
+                ]
+            },
+			{
+                "address": "dns ip",     //新加坡
+                "port": 53,
+                "domains": [
+                "domain:netflix.com",
+                "domain:netflix.net",
+                "domain:nflximg.net",
+                "domain:nflxvideo.net",
+                "domain:nflxso.net",
+                "domain:nflxext.com"
+                ]
+            },
+	        "1.1.1.1",
+	        "1.0.0.1",
+	        "8.8.8.8",
+	        "8.8.4.4",
+            "localhost"
+        ]
+    },
+  "inbounds": [{
+    "port": 30851,           //此处为你 V2ray 的配置端口，Nginx 会在本地监听这个端口进行转发
+    "listen":"127.0.0.1",
+    "protocol": "vmess",
+    "settings": {
+      "clients": [
+        {
+          "id": "f66fe264-c623-40fb-9f8a-545dsadsd544", //此处为安装时生成的 id
+          "level": 1,
+          "alterId": 2      //此处为安装时生成的 alterId
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws",       //你的网络方式
+      "wsSettings": {
+        "path": "/d23ac1b0/"   //此处为路径,不要落下/
+      }
+    }
+  }],
+  "outbounds": [
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIP"
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "blocked"
+        }
+    ],
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "ip": ["geoip:private"],
+        "outboundTag": "blocked"
+      }
+    ]
+  }
+}
