@@ -1,0 +1,12 @@
+payload:
+  -DOMAIN-SUFFIX,bahamut.com.tw
+  -DOMAIN-SUFFIX,hinet.com
+  -DOMAIN-SUFFIX,hinet.net
+  -DOMAIN-SUFFIX,flurry.com
+  -DOMAIN-SUFFIX,ani.gamer.com.tw
+  -DOMAIN-SUFFIX,gamer.com.tw
+  -DOMAIN,gamer-cds.cdn.hinet.net
+  -DOMAIN,gamer2-cds.cdn.hinet.net
+  -DOMAIN-KEYWORD,gamer
+  -DOMAIN-KEYWORD,4gtv
+  -DOMAIN-KEYWORD,tamedia
