@@ -9,3 +9,4 @@ payload:
   - DOMAIN,linear-abematv.akamaized.net
   - DOMAIN-SUFFIX,dmm.co.jp
   - DOMAIN-KEYWORD,dmm
+  - DOMAIN-SUFFIX,dmm-extension.com
