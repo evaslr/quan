@@ -1,0 +1,60 @@
+{
+    "log": {
+        "level": "info",
+        "timestamp": true
+    },
+    "route": {
+        "rules": [
+            {
+                "geosite": [
+                    "cn",
+                    "private"
+                ],
+                "geoip": [
+                    "cn",
+                    "private"
+                ],
+                "outbound": "direct"
+            }
+        ]
+    },
+    "inbounds": [
+        {
+            "type": "mixed",
+            "tag": "mixed-in",
+            "listen": "::",
+            "listen_port": 10000
+        }
+    ],
+    "outbounds": [
+        {
+            "type": "vless",
+            "tag": "proxy",
+            "server": "d73b.800648.xyz",
+            "server_port": 443,
+            "uuid": "0b5dd400-87b6-44b7-c70f-1913f75421b5",
+            "tls": {
+                "enabled": true,
+                "server_name": "blog.api.www.cloudflare.com", // 与服务端一致
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w", // 服务端执行 sing-box generate reality-keypair 生成，私钥对应的公钥，填 "PublicKey" 的值
+                    "short_id": ",96,3c82,31b274,3582620b" // 与服务端一致
+                }
+            },
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "qq" // 与服务端一致
+            }
+        },
+        {
+            "type": "direct",
+            "tag": "direct"
+        }
+    ]
+}
