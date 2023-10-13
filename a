@@ -106,42 +106,48 @@
       "outbounds": [
         "auto",
         "direct",
-        "Mzz5YNAP_vless"
+        "东京106"
+		"东京226"
       ]
     },
     {
       "tag": "🤖 OpenAI",
       "type": "selector",
       "outbounds": [
-        "Mzz5YNAP_vless"
+        "东京106"
+		"东京226"
       ]
     },
     {
       "tag": "🌌 Google",
       "type": "selector",
       "outbounds": [
-        "Mzz5YNAP_vless"
+        "东京106"
+		"东京226"
       ]
     },
     {
       "tag": "📟 Telegram",
       "type": "selector",
       "outbounds": [
-        "Mzz5YNAP_vless"
+        "东京106"
+		"东京226"
       ]
     },
     {
       "tag": "🐦 Twitter",
       "type": "selector",
       "outbounds": [
-        "Mzz5YNAP_vless"
+        "东京106"
+		"东京226"
       ]
     },
     {
       "tag": "👤 Facebook",
       "type": "selector",
       "outbounds": [
-        "Mzz5YNAP_vless"
+        "东京106"
+		"东京226"
       ]
     },
     {
@@ -149,7 +155,8 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "Mzz5YNAP_vless"
+        "东京106"
+		"东京226"
       ]
     },
     {
@@ -157,7 +164,8 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "Mzz5YNAP_vless"
+        "东京106"
+		"东京226"
       ]
     },
     {
@@ -165,7 +173,8 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "Mzz5YNAP_vless"
+        "东京106"
+		"东京226"
       ]
     },
     {
@@ -173,7 +182,8 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "Mzz5YNAP_vless"
+        "东京106"
+		"东京226"
       ]
     },
     {
@@ -188,7 +198,8 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "Mzz5YNAP_vless"
+        "东京106"
+		"东京226"
       ]
     },
     {
@@ -196,14 +207,16 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "Mzz5YNAP_vless"
+        "东京106"
+		"东京226"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "Mzz5YNAP_vless"
+        "东京106"
+		"东京226"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "1m",
@@ -222,16 +235,33 @@
       "tag": "block"
     },
     {
-      "tag": "Mzz5YNAP_vless",
+      "tag": "东京106",
       "type": "vless",
-      "server": "d106.800648.xyz",
+      "server": "d106.",
       "server_port": 443,
-      "uuid": "22d8488b-daa4-46bd-c19a-a88d834901ed",
+      "uuid": "4d293653-8b1c-4dd6-a5b4-cff62a04a5c1",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "d106.800648.xyz",
+        "server_name": "d106.",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    }
+	{
+      "tag": "东京226",
+      "type": "vless",
+      "server": "d106.xyz",
+      "server_port": 443,
+      "uuid": "3b0f1c67-e3a6-4c91-ce5e-b872a38c2467",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "d106.xyz",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
