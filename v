@@ -250,7 +250,7 @@
           "fingerprint": "chrome"
         }
       }
-    }
+    },
     {
       "tag": "东京226",
       "type": "vless",
