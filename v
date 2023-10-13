@@ -107,7 +107,10 @@
         "auto",
         "direct",
         "东京106",
-		"东京226"
+		"东京226",
+		"东京242",
+		"新加坡14",
+		"新加坡78"
       ]
     },
     {
@@ -115,7 +118,10 @@
       "type": "selector",
       "outbounds": [
         "东京106",
-		"东京226"
+		"东京226",
+		"东京242",
+		"新加坡14",
+		"新加坡78"
       ]
     },
     {
@@ -123,7 +129,10 @@
       "type": "selector",
       "outbounds": [
         "东京106",
-		"东京226"
+		"东京226",
+		"东京242",
+		"新加坡14",
+		"新加坡78"
       ]
     },
     {
@@ -131,7 +140,10 @@
       "type": "selector",
       "outbounds": [
         "东京106",
-		"东京226"
+		"东京226",
+		"东京242",
+		"新加坡14",
+		"新加坡78"
       ]
     },
     {
@@ -139,7 +151,10 @@
       "type": "selector",
       "outbounds": [
         "东京106",
-		"东京226"
+		"东京226",
+		"东京242",
+		"新加坡14",
+		"新加坡78"
       ]
     },
     {
@@ -147,7 +162,10 @@
       "type": "selector",
       "outbounds": [
         "东京106",
-		"东京226"
+		"东京226",
+		"东京242",
+		"新加坡14",
+		"新加坡78"
       ]
     },
     {
@@ -156,7 +174,10 @@
       "outbounds": [
         "direct",
         "东京106",
-		"东京226"
+		"东京226",
+		"东京242",
+		"新加坡14",
+		"新加坡78"
       ]
     },
     {
@@ -165,7 +186,10 @@
       "outbounds": [
         "direct",
         "东京106",
-		"东京226"
+		"东京226",
+		"东京242",
+		"新加坡14",
+		"新加坡78"
       ]
     },
     {
@@ -174,7 +198,10 @@
       "outbounds": [
         "direct",
         "东京106",
-		"东京226"
+		"东京226",
+		"东京242",
+		"新加坡14",
+		"新加坡78"
       ]
     },
     {
@@ -182,8 +209,11 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "东京106",
-		"东京226"
+       "东京106",
+		"东京226",
+		"东京242",
+		"新加坡14",
+		"新加坡78"
       ]
     },
     {
@@ -199,7 +229,10 @@
       "outbounds": [
         "direct",
         "东京106",
-		"东京226"
+		"东京226",
+		"东京242",
+		"新加坡14",
+		"新加坡78"
       ]
     },
     {
@@ -208,7 +241,10 @@
       "outbounds": [
         "direct",
         "东京106",
-		"东京226"
+		"东京226",
+		"东京242",
+		"新加坡14",
+		"新加坡78"
       ]
     },
     {
@@ -216,7 +252,10 @@
       "type": "urltest",
       "outbounds": [
         "东京106",
-		"东京226"
+		"东京226",
+		"东京242",
+		"新加坡14",
+		"新加坡78"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "1m",
@@ -237,14 +276,14 @@
     {
       "tag": "东京106",
       "type": "vless",
-      "server": "d106.",
+      "server": "",
       "server_port": 443,
-      "uuid": "4d293653-8b1c-4dd6-a5b4-cff62a04a5c1",
+      "uuid": "c934489e-ec52-475b-9271-a0d9d1832052",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "d106.",
+        "server_name": "",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -254,14 +293,65 @@
     {
       "tag": "东京226",
       "type": "vless",
-      "server": "d106.xyz",
+      "server": "",
       "server_port": 443,
-      "uuid": "3b0f1c67-e3a6-4c91-ce5e-b872a38c2467",
+      "uuid": "cbc03d5f-7347-40c1-f56a-8c1b1098b559",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "d106.xyz",
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+	{
+      "tag": "东京242",
+      "type": "vless",
+      "server": "",
+      "server_port": 443,
+      "uuid": "c33b6a72-4b9d-471a-d081-afa4571360c4",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+	{
+      "tag": "新加坡14",
+      "type": "vless",
+      "server": "",
+      "server_port": 443,
+      "uuid": "01a97a75-e970-4836-adc5-62c62bb7d174",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+	{
+      "tag": "新加坡78",
+      "type": "vless",
+      "server": "",
+      "server_port": 443,
+      "uuid": "5c24217f-1c3b-416a-df6f-327508b45e4c",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
