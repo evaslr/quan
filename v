@@ -251,7 +251,7 @@
         }
       }
     }
-	{
+    {
       "tag": "东京226",
       "type": "vless",
       "server": "d106.xyz",
