@@ -278,7 +278,7 @@
       "type": "vless",
       "server": "",
       "server_port": 443,
-      "uuid": "c934489e-ec52-475b-9271-a0d9d1832052",
+      "uuid": "c934489e-832052",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -295,7 +295,7 @@
       "type": "vless",
       "server": "",
       "server_port": 443,
-      "uuid": "cbc03d5f-7347-40c1-f56a-8c1b1098b559",
+      "uuid": "cbc03d5f-c1b1098b559",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -312,7 +312,7 @@
       "type": "vless",
       "server": "",
       "server_port": 443,
-      "uuid": "c33b6a72-4b9d-471a-d081-afa4571360c4",
+      "uuid": "c33b6a72-44571360c4",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -329,7 +329,7 @@
       "type": "vless",
       "server": "",
       "server_port": 443,
-      "uuid": "01a97a75-e970-4836-adc5-62c62bb7d174",
+      "uuid": "01a97a75-2bb7d174",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -346,7 +346,7 @@
       "type": "vless",
       "server": "",
       "server_port": 443,
-      "uuid": "5c24217f-1c3b-416a-df6f-327508b45e4c",
+      "uuid": "5c242175e4c",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
