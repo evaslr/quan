@@ -1,5 +1,14 @@
 # 直连列表
 
+#币安
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,api.saasexch.io
+DOMAIN-SUFFIX,log.bntrace.com
+DOMAIN-SUFFIX,api.commonservice.io
+DOMAIN-SUFFIX,binancecnt.com
+
 # MyList
 DOMAIN-SUFFIX,13th.tech
 DOMAIN-SUFFIX,423down.com
