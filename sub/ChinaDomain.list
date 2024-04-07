@@ -1,6 +1,7 @@
 # 直连列表
-DOMAIN-SUFFIX,duse1.com
+
 #币安
+DOMAIN-SUFFIX,duse1.com
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,binance.me
 DOMAIN-SUFFIX,binance.info
