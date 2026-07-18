@@ -21,6 +21,7 @@ IP-CIDR,45.115.196.0/22,no-resolve
 IP-CIDR6,2406:9400::/32,no-resolve
 
 ## > ViuTV
+DOMAIN-SUFFIX,akamaized.net
 PROCESS-NAME,com.viu.pad
 PROCESS-NAME,com.viu.phone
 PROCESS-NAME,com.vuclip.viu
