@@ -1,0 +1,6 @@
+# 局域网及本机流量直连
+DOMAIN-KEYWORD,geosite:private,DIRECT
+GEOIP,private,DIRECT,no-resolve  
+# 中国大陆域名与IP直连
+GEOSITE,cn,DIRECT
+GEOIP,CN,DIRECT
